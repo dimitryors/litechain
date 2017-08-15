@@ -1,0 +1,16 @@
+{application, litechain,
+ [{description, "Lite Blockchain Implementation"},
+  {vsn, "1.0"},
+  {registered, []},
+  {mod, { litechain_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
